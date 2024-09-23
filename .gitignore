@@ -111,6 +111,8 @@ ipython_config.py
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
+__pycache__/
+*.pyc
 
 # Celery stuff
 celerybeat-schedule
@@ -127,6 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+CybSecenv/
 
 # Spyder project settings
 .spyderproject
@@ -151,6 +154,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+db.sqlite3
+.DS_Store/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
